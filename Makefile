@@ -13,6 +13,9 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+activate:
+	source $(poetry env info --path)/bin/activate
+
 lint:
 	poetry run flake8 hexlet_python_package
 
