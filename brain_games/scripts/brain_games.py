@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""Main file."""
 
-import  brain_games.cli
+from brain_games import cli
+
 
 def main():
-    brain_games.cli.welcome_user()
+    """Do job."""
+    cli.welcome_user()
+
 
 if __name__ == '__main__':
     main()
-

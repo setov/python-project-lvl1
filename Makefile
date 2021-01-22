@@ -17,6 +17,6 @@ activate:
 	source $(poetry env info --path)/bin/activate
 
 lint:
-	poetry run flake8 hexlet_python_package
+	poetry run flake8 brain_games
 
-.PHONY: install test lint selfcheck check build
+.PHONY: install lint build publish
